@@ -10,7 +10,7 @@ def test_inicio():
     response = client.get("/")
 
     assert response.status_code == 200
-    assert response.json() == {"mensaje": "Tienda V1"}
+    assert response.json() == {"mensaje": "Tienda DepOps 2.0"}
 
 
 def test_calcular_compra():

@@ -11,7 +11,7 @@ class Compra(BaseModel):
 
 @app.get("/")
 def inicio():
-  return {"mensaje": "Tienda V1"}
+  return {"mensaje": "Tienda DepOps 2.0"}
 
 
 @app.post("/compra")
